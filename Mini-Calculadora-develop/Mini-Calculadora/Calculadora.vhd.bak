@@ -1,0 +1,16 @@
+entity inversor4bits is
+	port(x: in bit_vector(3 downto 0;
+			y: out bit_vector(3 downto 0));
+end inversor4bits;
+
+ARCHITECTURE comportamento1 OF inversor4bits IS
+COMPONENT inv IS
+	PORT(X1: IN BIT;
+			Y1: OUT BIT);
+END COMPONENT;
+BEGIN
+	U0: inv port map (X1 => x(0), Y1 => y(0));
+	U1: inv port map (X1 => x(1), Y1 => y(1));
+	U2: inv port map (X1 => x(2), Y1 => y(2));
+	U3: inv port map (X1 => x(3), Y1 => y(3));
+END comportamento1;

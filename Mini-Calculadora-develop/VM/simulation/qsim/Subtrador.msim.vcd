@@ -1,0 +1,103 @@
+$comment
+	File created using the following command:
+		vcd file Subtrador.msim.vcd -direction
+$end
+$date
+	Thu Apr 11 18:27:01 2019
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Subtrador_vlg_vec_tst $end
+$var reg 4 ! a [3:0] $end
+$var reg 4 " b [3:0] $end
+$var reg 1 # b_in $end
+$var wire 1 $ b_out $end
+$var wire 1 % s [3] $end
+$var wire 1 & s [2] $end
+$var wire 1 ' s [1] $end
+$var wire 1 ( s [0] $end
+$var wire 1 ) sampler $end
+$scope module i1 $end
+$var wire 1 * gnd $end
+$var wire 1 + vcc $end
+$var wire 1 , unknown $end
+$var tri1 1 - devclrn $end
+$var tri1 1 . devpor $end
+$var tri1 1 / devoe $end
+$var wire 1 0 sig[2]~2_combout $end
+$var wire 1 1 b_in~combout $end
+$var wire 1 2 s~0_combout $end
+$var wire 1 3 sig[0]~0_combout $end
+$var wire 1 4 s~1_combout $end
+$var wire 1 5 s~2_combout $end
+$var wire 1 6 s~3_combout $end
+$var wire 1 7 sig~1_combout $end
+$var wire 1 8 sig[2]~3_combout $end
+$var wire 1 9 s~4_combout $end
+$var wire 1 : b_out~0_combout $end
+$var wire 1 ; b~combout [3] $end
+$var wire 1 < b~combout [2] $end
+$var wire 1 = b~combout [1] $end
+$var wire 1 > b~combout [0] $end
+$var wire 1 ? a~combout [3] $end
+$var wire 1 @ a~combout [2] $end
+$var wire 1 A a~combout [1] $end
+$var wire 1 B a~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1100 !
+b1010 "
+0#
+0$
+0(
+1'
+0&
+0%
+x)
+0*
+1+
+x,
+1-
+1.
+1/
+00
+01
+02
+03
+14
+15
+06
+07
+08
+09
+0:
+0>
+1=
+0<
+1;
+0B
+0A
+1@
+1?
+$end
+#500000
+b1000 !
+0@
+0)
+05
+10
+16
+18
+1:
+19
+1&
+1$
+1%
+#1000000

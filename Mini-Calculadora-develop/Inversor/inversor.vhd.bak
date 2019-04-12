@@ -1,0 +1,10 @@
+ENTITY inversor IS
+	PORT(x1: IN STD_LOGIC;
+			Y: OUT STD_LOGIC);
+END inversor;
+
+ARCHITECTURE inv OF inversor IS
+BEGIN
+	y <= NOT x1;
+end inv;	
+	

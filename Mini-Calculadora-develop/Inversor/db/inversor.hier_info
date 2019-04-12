@@ -1,0 +1,5 @@
+|inversor
+x1 => Y.DATAIN
+Y <= x1.DB_MAX_OUTPUT_PORT_TYPE
+
+

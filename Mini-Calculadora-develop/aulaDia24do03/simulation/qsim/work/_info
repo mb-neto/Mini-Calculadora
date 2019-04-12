@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dA:\Documentos\Estudo\Engenharia\p7\Mini-Calculadora-develop\aulaDia24do03\simulation\qsim
+vsomador
+Z1 I8ZL3z7cd1>3=oj`<BU91P3
+Z2 VQff6H6ZDTM_1zPTE>J]:S3
+Z3 dA:\Documentos\Estudo\Engenharia\p7\Mini-Calculadora-develop\aulaDia24do03\simulation\qsim
+Z4 w1555018520
+Z5 8somador.vo
+Z6 Fsomador.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 LBHZ9k_gd`>JXo0hQd5AL1
+!s85 0
+Z10 !s108 1555018522.432000
+Z11 !s107 somador.vo|
+Z12 !s90 -work|work|somador.vo|
+!s101 -O0
+vsomador_vlg_check_tst
+!i10b 1
+!s100 JhAJODRZGX[:FVLlgKA]n1
+I51BKlU9SCmQOl<^?Q>a910
+VSW1=:Ice6691HeI<AnQe@0
+R3
+Z13 w1555018519
+Z14 8somador.vt
+Z15 Fsomador.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1555018522.858000
+Z17 !s107 somador.vt|
+Z18 !s90 -work|work|somador.vt|
+!s101 -O0
+R8
+vsomador_vlg_sample_tst
+!i10b 1
+!s100 ZBmcjl_h@5gH4iVazK=eC2
+IPWS8c7^onI1Rf7ELz]O1B3
+V8dmZDY2bTgnM@cWG6Zk0l1
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vsomador_vlg_vec_tst
+!i10b 1
+!s100 I<3B;`iLHQklJO]0QC7nb0
+Ic3;CKSelOa3fHAeG`N9jV0
+VB7<iAVHKU]b4;^b@fEjo@3
+R3
+R13
+R14
+R15
+L0 236
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

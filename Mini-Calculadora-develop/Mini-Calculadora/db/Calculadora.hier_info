@@ -1,0 +1,269 @@
+|Calculadora
+x1[0] => somador:usomador.a[0]
+x1[0] => subtrador:usubtrador.a[0]
+x1[0] => inversor:uinversor.x[0]
+x1[0] => maiorQue:umaior.a[0]
+x1[0] => menorQue:umenor.c[0]
+x1[1] => somador:usomador.a[1]
+x1[1] => subtrador:usubtrador.a[1]
+x1[1] => inversor:uinversor.x[1]
+x1[1] => maiorQue:umaior.a[1]
+x1[1] => menorQue:umenor.c[1]
+x1[2] => somador:usomador.a[2]
+x1[2] => subtrador:usubtrador.a[2]
+x1[2] => inversor:uinversor.x[2]
+x1[2] => maiorQue:umaior.a[2]
+x1[2] => menorQue:umenor.c[2]
+x1[3] => somador:usomador.a[3]
+x1[3] => subtrador:usubtrador.a[3]
+x1[3] => inversor:uinversor.x[3]
+x1[3] => maiorQue:umaior.a[3]
+x1[3] => menorQue:umenor.c[3]
+x2[0] => somador:usomador.b[0]
+x2[0] => subtrador:usubtrador.b[0]
+x2[0] => maiorQue:umaior.b[0]
+x2[0] => menorQue:umenor.d[0]
+x2[1] => somador:usomador.b[1]
+x2[1] => subtrador:usubtrador.b[1]
+x2[1] => maiorQue:umaior.b[1]
+x2[1] => menorQue:umenor.d[1]
+x2[2] => somador:usomador.b[2]
+x2[2] => subtrador:usubtrador.b[2]
+x2[2] => maiorQue:umaior.b[2]
+x2[2] => menorQue:umenor.d[2]
+x2[3] => somador:usomador.b[3]
+x2[3] => subtrador:usubtrador.b[3]
+x2[3] => maiorQue:umaior.b[3]
+x2[3] => menorQue:umenor.d[3]
+s2 => c0.IN1
+s2 => multiplexador:uf:0:umult.s2
+s2 => multiplexador:uf:1:umult.s2
+s2 => multiplexador:uf:2:umult.s2
+s2 => multiplexador:uf:3:umult.s2
+s2 => c0.IN1
+s2 => c0.IN1
+s1 => c0.IN1
+s1 => c0.IN1
+s1 => multiplexador:uf:0:umult.s1
+s1 => multiplexador:uf:1:umult.s1
+s1 => multiplexador:uf:2:umult.s1
+s1 => multiplexador:uf:3:umult.s1
+s1 => c0.IN1
+s0 => multiplexador:uf:0:umult.s0
+s0 => multiplexador:uf:1:umult.s0
+s0 => multiplexador:uf:2:umult.s0
+s0 => multiplexador:uf:3:umult.s0
+s0 => c0.IN1
+s0 => c0.IN1
+s0 => c0.IN1
+ld => ctrl[1].DATAIN
+ctrl[0] <= subtrador:usubtrador.b_out
+ctrl[1] <= ld.DB_MAX_OUTPUT_PORT_TYPE
+c0 <= c0.DB_MAX_OUTPUT_PORT_TYPE
+y[0] <= multiplexador:uf:0:umult.y
+y[1] <= multiplexador:uf:1:umult.y
+y[2] <= multiplexador:uf:2:umult.y
+y[3] <= multiplexador:uf:3:umult.y
+
+
+|Calculadora|somador:usomador
+a[0] => s.IN0
+a[0] => sig.IN0
+a[0] => sig.IN0
+a[1] => s.IN0
+a[1] => sig.IN0
+a[1] => sig.IN1
+a[2] => s.IN0
+a[2] => sig.IN0
+a[2] => sig.IN1
+a[3] => s.IN0
+a[3] => c_out.IN0
+a[3] => c_out.IN1
+b[0] => s.IN1
+b[0] => sig.IN1
+b[0] => sig.IN0
+b[1] => s.IN1
+b[1] => sig.IN1
+b[1] => sig.IN1
+b[2] => s.IN1
+b[2] => sig.IN1
+b[2] => sig.IN1
+b[3] => s.IN1
+b[3] => c_out.IN1
+b[3] => c_out.IN1
+C_in => s.IN1
+C_in => sig.IN1
+C_in => sig.IN1
+s[0] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Calculadora|subtrador:usubtrador
+a[0] => s.IN0
+a[0] => sig.IN0
+a[0] => sig.IN0
+a[1] => s.IN0
+a[1] => sig.IN1
+a[1] => sig.IN0
+a[2] => s.IN0
+a[2] => sig.IN1
+a[2] => sig.IN0
+a[3] => s.IN0
+a[3] => b_out.IN1
+a[3] => b_out.IN0
+b[0] => s.IN1
+b[0] => sig.IN0
+b[0] => sig.IN1
+b[1] => s.IN1
+b[1] => sig.IN1
+b[1] => sig.IN1
+b[2] => s.IN1
+b[2] => sig.IN1
+b[2] => sig.IN1
+b[3] => s.IN1
+b[3] => b_out.IN1
+b[3] => b_out.IN1
+b_in => s.IN1
+b_in => sig.IN1
+b_in => sig.IN1
+s[0] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s.DB_MAX_OUTPUT_PORT_TYPE
+b_out <= b_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Calculadora|inversor:uinversor
+x[0] => y[0].DATAIN
+x[1] => y[1].DATAIN
+x[2] => y[2].DATAIN
+x[3] => y[3].DATAIN
+y[0] <= x[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= x[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= x[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= x[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Calculadora|maiorQue:umaior
+a[0] => LessThan0.IN4
+a[1] => LessThan0.IN3
+a[2] => LessThan0.IN2
+a[3] => LessThan0.IN1
+b[0] => LessThan0.IN8
+b[1] => LessThan0.IN7
+b[2] => LessThan0.IN6
+b[3] => LessThan0.IN5
+s <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Calculadora|menorQue:umenor
+c[0] => LessThan0.IN4
+c[1] => LessThan0.IN3
+c[2] => LessThan0.IN2
+c[3] => LessThan0.IN1
+d[0] => LessThan0.IN8
+d[1] => LessThan0.IN7
+d[2] => LessThan0.IN6
+d[3] => LessThan0.IN5
+y <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Calculadora|multiplexador:\uf:0:umult
+a => sigA.IN0
+b => sigB.IN0
+c => sigC.IN0
+d => sigD.IN0
+e => sigE.IN0
+s0 => sigE.IN1
+s0 => sigA.IN1
+s0 => sigB.IN1
+s0 => sigC.IN1
+s0 => sigD.IN1
+s1 => sigC.IN1
+s1 => sigD.IN1
+s1 => sigA.IN1
+s1 => sigB.IN1
+s1 => sigE.IN1
+s2 => sigB.IN1
+s2 => sigD.IN1
+s2 => sigA.IN1
+s2 => sigC.IN1
+s2 => sigE.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Calculadora|multiplexador:\uf:1:umult
+a => sigA.IN0
+b => sigB.IN0
+c => sigC.IN0
+d => sigD.IN0
+e => sigE.IN0
+s0 => sigE.IN1
+s0 => sigA.IN1
+s0 => sigB.IN1
+s0 => sigC.IN1
+s0 => sigD.IN1
+s1 => sigC.IN1
+s1 => sigD.IN1
+s1 => sigA.IN1
+s1 => sigB.IN1
+s1 => sigE.IN1
+s2 => sigB.IN1
+s2 => sigD.IN1
+s2 => sigA.IN1
+s2 => sigC.IN1
+s2 => sigE.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Calculadora|multiplexador:\uf:2:umult
+a => sigA.IN0
+b => sigB.IN0
+c => sigC.IN0
+d => sigD.IN0
+e => sigE.IN0
+s0 => sigE.IN1
+s0 => sigA.IN1
+s0 => sigB.IN1
+s0 => sigC.IN1
+s0 => sigD.IN1
+s1 => sigC.IN1
+s1 => sigD.IN1
+s1 => sigA.IN1
+s1 => sigB.IN1
+s1 => sigE.IN1
+s2 => sigB.IN1
+s2 => sigD.IN1
+s2 => sigA.IN1
+s2 => sigC.IN1
+s2 => sigE.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Calculadora|multiplexador:\uf:3:umult
+a => sigA.IN0
+b => sigB.IN0
+c => sigC.IN0
+d => sigD.IN0
+e => sigE.IN0
+s0 => sigE.IN1
+s0 => sigA.IN1
+s0 => sigB.IN1
+s0 => sigC.IN1
+s0 => sigD.IN1
+s1 => sigC.IN1
+s1 => sigD.IN1
+s1 => sigA.IN1
+s1 => sigB.IN1
+s1 => sigE.IN1
+s2 => sigB.IN1
+s2 => sigD.IN1
+s2 => sigA.IN1
+s2 => sigC.IN1
+s2 => sigE.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

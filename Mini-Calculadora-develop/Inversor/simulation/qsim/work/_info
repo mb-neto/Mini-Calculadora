@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dA:\Documentos\Estudo\Engenharia\p7\Mini-Calculadora-develop\Inversor\simulation\qsim
+vinversor
+Z1 IEFSc^P_BI2RoM;8Rb;LEc1
+Z2 VeRG?IR5G`4[NXKFUo@3jZ3
+Z3 dA:\Documentos\Estudo\Engenharia\p7\Mini-Calculadora-develop\Inversor\simulation\qsim
+Z4 w1555018636
+Z5 8inversor.vo
+Z6 Finversor.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 N;Lj;RS@70nQ3cC?4z7zz1
+!s85 0
+Z10 !s108 1555018638.063000
+Z11 !s107 inversor.vo|
+Z12 !s90 -work|work|inversor.vo|
+!s101 -O0
+vinversor_vlg_check_tst
+!i10b 1
+!s100 3TnVn[So;3?b__VRcHPQ32
+IC3P4<2LlKXQ6=8CT;R@TG0
+V=V;`64dEzAJK4n^i0zD153
+R3
+Z13 w1555018635
+Z14 8inversor.vt
+Z15 Finversor.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1555018638.575000
+Z17 !s107 inversor.vt|
+Z18 !s90 -work|work|inversor.vt|
+!s101 -O0
+R8
+vinversor_vlg_sample_tst
+!i10b 1
+!s100 Z9CBZ_[II_HL<gPo[K^V_1
+IEAJ8:g=D9a_ig6``n?9=z2
+V4X>N16Q1JIEFET1L_Jfi40
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vinversor_vlg_vec_tst
+!i10b 1
+!s100 z59W]^ae@oG;OjSOz=Oo91
+IaO5^_;@7JPBAU8SH@iEdO2
+V_9]bT?eC=fIW[L`d]HWEX0
+R3
+R13
+R14
+R15
+L0 152
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

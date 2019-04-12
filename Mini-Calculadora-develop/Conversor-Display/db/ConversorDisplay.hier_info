@@ -1,0 +1,52 @@
+|ConversorDisplay
+y[0] => visor7seguimentos:uvisor.z
+y[1] => visor7seguimentos:uvisor.y
+y[2] => visor7seguimentos:uvisor.x
+y[3] => visor7seguimentos:uvisor.w
+ctrl[0] => Equal0.IN1
+ctrl[0] => Equal1.IN1
+ctrl[1] => Equal0.IN0
+ctrl[1] => Equal1.IN0
+disp[0] <= disp.DB_MAX_OUTPUT_PORT_TYPE
+disp[1] <= disp.DB_MAX_OUTPUT_PORT_TYPE
+disp[2] <= disp.DB_MAX_OUTPUT_PORT_TYPE
+disp[3] <= disp.DB_MAX_OUTPUT_PORT_TYPE
+disp[4] <= disp.DB_MAX_OUTPUT_PORT_TYPE
+disp[5] <= disp.DB_MAX_OUTPUT_PORT_TYPE
+disp[6] <= disp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ConversorDisplay|visor7seguimentos:uvisor
+w => a.IN0
+w => a.IN0
+w => a.IN0
+w => b.IN0
+w => b.IN0
+w => c.IN0
+x => a.IN1
+x => a.IN1
+x => a.IN0
+x => b.IN1
+y => a.IN1
+y => a.IN1
+y => d.IN1
+y => a.IN1
+y => a.IN1
+y => b.IN1
+y => d.IN1
+z => b.IN1
+z => c.IN1
+z => d.IN1
+z => a.IN1
+z => b.IN1
+z => d.IN1
+z => f.IN1
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+d <= d.DB_MAX_OUTPUT_PORT_TYPE
+e <= e.DB_MAX_OUTPUT_PORT_TYPE
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+
+

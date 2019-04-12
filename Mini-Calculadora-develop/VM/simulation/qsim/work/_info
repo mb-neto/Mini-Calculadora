@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dA:\Documentos\Estudo\Engenharia\p7\Mini-Calculadora-develop\VM\simulation\qsim
+vSubtrador
+Z1 Ig8V=ISo]8<CI23hkAzoYk0
+Z2 VdO8OSl2oR220Si7WaUKfj3
+Z3 dA:\Documentos\Estudo\Engenharia\p7\Mini-Calculadora-develop\VM\simulation\qsim
+Z4 w1555018018
+Z5 8Subtrador.vo
+Z6 FSubtrador.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Subtrador.vo|
+Z9 o-work work -O0
+Z10 n@subtrador
+!i10b 1
+Z11 !s100 8OKE<Kg3UhJTcncG[5bJi1
+!s85 0
+Z12 !s108 1555018019.886000
+Z13 !s107 Subtrador.vo|
+!s101 -O0
+vSubtrador_vlg_check_tst
+!i10b 1
+Z14 !s100 9nR01`X2KOJT`2DK7NOMW0
+Z15 IF@i0bOjb<XSIddbIaV=[90
+Z16 VKTgj<o=D^EzKZNah[8ITC2
+R3
+Z17 w1555018017
+Z18 8Subtrador.vt
+Z19 FSubtrador.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z20 !s108 1555018020.300000
+Z21 !s107 Subtrador.vt|
+Z22 !s90 -work|work|Subtrador.vt|
+!s101 -O0
+R9
+Z23 n@subtrador_vlg_check_tst
+vSubtrador_vlg_sample_tst
+!i10b 1
+Z24 !s100 bMJ3j@Z3LOCmm`TEb@gif3
+Z25 I<^QVT3^D_BXZa[eEUQ_K?1
+Z26 V5>aj`WGgCNB?2;J?mAIPm1
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@subtrador_vlg_sample_tst
+vSubtrador_vlg_vec_tst
+!i10b 1
+!s100 BWF]h<en<o^mXzla12jm12
+IVG;cZSnY6B94=0Xook>L12
+Z28 V@oD5@`Vee1;1kkfh7]g3Q1
+R3
+R17
+R18
+R19
+Z29 L0 236
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z30 n@subtrador_vlg_vec_tst

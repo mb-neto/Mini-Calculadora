@@ -1,0 +1,35 @@
+|somador
+a[0] => s.IN0
+a[0] => sig.IN0
+a[0] => sig.IN0
+a[1] => s.IN0
+a[1] => sig.IN0
+a[1] => sig.IN1
+a[2] => s.IN0
+a[2] => sig.IN0
+a[2] => sig.IN1
+a[3] => s.IN0
+a[3] => c_out.IN0
+a[3] => c_out.IN1
+b[0] => s.IN1
+b[0] => sig.IN1
+b[0] => sig.IN0
+b[1] => s.IN1
+b[1] => sig.IN1
+b[1] => sig.IN1
+b[2] => s.IN1
+b[2] => sig.IN1
+b[2] => sig.IN1
+b[3] => s.IN1
+b[3] => c_out.IN1
+b[3] => c_out.IN1
+C_in => s.IN1
+C_in => sig.IN1
+C_in => sig.IN1
+s[0] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

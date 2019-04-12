@@ -1,0 +1,298 @@
+$comment
+	File created using the following command:
+		vcd file Calculadora.msim.vcd -direction
+$end
+$date
+	Thu Apr 11 18:55:51 2019
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Calculadora_vlg_vec_tst $end
+$var reg 1 ! ld $end
+$var reg 1 " s0 $end
+$var reg 1 # s1 $end
+$var reg 1 $ s2 $end
+$var reg 4 % x1 [3:0] $end
+$var reg 4 & x2 [3:0] $end
+$var wire 1 ' c0 $end
+$var wire 1 ( ctrl [1] $end
+$var wire 1 ) ctrl [0] $end
+$var wire 1 * y [3] $end
+$var wire 1 + y [2] $end
+$var wire 1 , y [1] $end
+$var wire 1 - y [0] $end
+$var wire 1 . sampler $end
+$scope module i1 $end
+$var wire 1 / gnd $end
+$var wire 1 0 vcc $end
+$var wire 1 1 unknown $end
+$var tri1 1 2 devclrn $end
+$var tri1 1 3 devpor $end
+$var tri1 1 4 devoe $end
+$var wire 1 5 usubtrador|sig[1]~0_combout $end
+$var wire 1 6 usubtrador|sig[2]~1_combout $end
+$var wire 1 7 usubtrador|b_out~0_combout $end
+$var wire 1 8 ld~combout $end
+$var wire 1 9 usomador|sig[1]~0_combout $end
+$var wire 1 : usomador|sig[2]~2_combout $end
+$var wire 1 ; usomador|c_out~0_combout $end
+$var wire 1 < s2~combout $end
+$var wire 1 = c0~0_combout $end
+$var wire 1 > c0~6_combout $end
+$var wire 1 ? c0~1_combout $end
+$var wire 1 @ c0~7_combout $end
+$var wire 1 A c0~2_combout $end
+$var wire 1 B s0~combout $end
+$var wire 1 C c0~3_combout $end
+$var wire 1 D s1~combout $end
+$var wire 1 E c0~4_combout $end
+$var wire 1 F c0~5_combout $end
+$var wire 1 G uf:0:umult|y~0_combout $end
+$var wire 1 H uf:0:umult|y~1_combout $end
+$var wire 1 I uf:1:umult|y~3_combout $end
+$var wire 1 J uf:1:umult|y~0_combout $end
+$var wire 1 K uf:1:umult|y~4_combout $end
+$var wire 1 L uf:1:umult|y~1_combout $end
+$var wire 1 M uf:1:umult|y~2_combout $end
+$var wire 1 N uf:2:umult|y~0_combout $end
+$var wire 1 O uf:2:umult|y~1_combout $end
+$var wire 1 P uf:2:umult|y~2_combout $end
+$var wire 1 Q uf:3:umult|y~4_combout $end
+$var wire 1 R usomador|sig[2]~1_combout $end
+$var wire 1 S usubtrador|s[3]~0_combout $end
+$var wire 1 T uf:3:umult|y~2_combout $end
+$var wire 1 U uf:3:umult|y~3_combout $end
+$var wire 1 V x2~combout [3] $end
+$var wire 1 W x2~combout [2] $end
+$var wire 1 X x2~combout [1] $end
+$var wire 1 Y x2~combout [0] $end
+$var wire 1 Z x1~combout [3] $end
+$var wire 1 [ x1~combout [2] $end
+$var wire 1 \ x1~combout [1] $end
+$var wire 1 ] x1~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+b1010 %
+b1 &
+0'
+0)
+0(
+1-
+1,
+0+
+1*
+x.
+0/
+10
+x1
+12
+13
+14
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+1>
+1?
+1@
+1A
+0B
+0C
+0D
+1E
+0F
+1G
+1H
+0I
+0J
+1K
+0L
+1M
+0N
+0O
+0P
+0Q
+0R
+1S
+1T
+1U
+1Y
+0X
+0W
+0V
+0]
+1\
+0[
+1Z
+$end
+#10000
+1$
+1<
+0.
+1J
+0E
+0A
+0>
+1Q
+0K
+0T
+0@
+0M
+0,
+#20000
+1#
+0$
+1D
+0<
+1.
+0J
+0H
+1C
+1A
+1>
+0Q
+1F
+1@
+0-
+0U
+1'
+0*
+#30000
+1$
+1<
+0.
+0A
+0>
+0F
+0@
+0'
+#40000
+1"
+0#
+0$
+1B
+0D
+0<
+1.
+1L
+0C
+1H
+1A
+1>
+1P
+1@
+1-
+1+
+#50000
+b11 &
+b10 &
+0"
+1$
+0Y
+1X
+0B
+1<
+0.
+0G
+0?
+19
+0L
+1J
+0A
+0>
+0H
+0@
+0P
+1Q
+1U
+0-
+0+
+1*
+#60000
+b11 &
+1Y
+1.
+1I
+1G
+1=
+15
+1K
+1H
+1>
+1O
+16
+1M
+1@
+1P
+0Q
+1-
+0U
+1,
+1+
+0*
+#70000
+b111 &
+b101 &
+b100 &
+0Y
+0X
+1W
+0.
+0G
+1?
+0=
+09
+05
+1R
+0O
+0H
+0R
+1O
+1;
+0P
+0;
+1P
+0-
+0+
+1+
+#80000
+b0 &
+0W
+1.
+0O
+0>
+06
+0P
+0@
+1Q
+1U
+0+
+1*
+#90000
+b1 &
+1Y
+0.
+0I
+1G
+0K
+1H
+0M
+1-
+0,
+#1000000

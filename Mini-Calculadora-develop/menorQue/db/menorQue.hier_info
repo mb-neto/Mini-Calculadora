@@ -1,0 +1,12 @@
+|menorQue
+c[0] => LessThan0.IN4
+c[1] => LessThan0.IN3
+c[2] => LessThan0.IN2
+c[3] => LessThan0.IN1
+d[0] => LessThan0.IN8
+d[1] => LessThan0.IN7
+d[2] => LessThan0.IN6
+d[3] => LessThan0.IN5
+y <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
